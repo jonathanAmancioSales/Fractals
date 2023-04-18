@@ -1,0 +1,4 @@
+L=1
+Ox=0; Oy=0
+@A Ox,Oy @B L,L @C
+
