@@ -3,7 +3,7 @@ Projeto que reúne alguns algoritmos que geram _fractais_ matemáticos e aleató
 
 ___
 
-<img src="Koch_Curve/Koch_Brasil_Flag/Koch_Brasil_Flag.svg" height="350">
+<img src="Koch_Curve/Koch_Brasil_Flag/Koch_Brasil_Flag.svg" height="362">
 
 <p float="left">
   <img src="Multi_Fractal_Tree/03_Ramos_[Sierpinski_Triangle]/03_Ramos/Multi_Fractal_60_08_Angle [15-120]_pattern1+.gif" width="300"/>
