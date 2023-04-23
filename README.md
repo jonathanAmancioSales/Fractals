@@ -13,14 +13,14 @@ ___
 <p float="left">
 <img src="Sierpisnki_Carpet/Sierpisnki_Carpet_Matrix/images/Sierpisnki_Carpet__step_6.gif" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_0.71_Box_Tsquare.png" height="300">
+ctal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_0.71_Box_Tsquare.png" height="300">
 </p>
 
 <p float="left">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/Other_1.2/T_04_08_1.2.png" height="300">
+ctal/Contorno_Vetor/Other_1.2/T_04_08_1.2.png" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/Other_1.2/T_04_08_1.5.png" height="300">
+ctal/Contorno_Vetor/Other_1.2/T_04_08_1.5.png" height="300">
 </p>
 
 <p float="left">
@@ -35,16 +35,16 @@ ctal/§Contorno_Vetor/Other_1.2/T_04_08_1.5.png" height="300">
 
 <p float="left">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/06/T_06_07.txt.png" height="300">
+ctal/Contorno_Vetor/06/T_06_07.txt.png" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/07/T_07_06.txt.png" height="300">
+ctal/Contorno_Vetor/07/T_07_06.txt.png" height="300">
 </p>
 
 <p float="left">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/03/T_03_06.txt.png" height="300">
+ctal/Contorno_Vetor/03/T_03_06.txt.png" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/04/T_04_07.txt.png" height="300">
+ctal/Contorno_Vetor/04/T_04_07.txt.png" height="300">
 </p>
 
 <p float="left">
@@ -52,11 +52,9 @@ ctal/§Contorno_Vetor/04/T_04_07.txt.png" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFractal/N_Circles_level_06/PNG_08/T_08_06.txt.png" height="300">
 </p>
 
-
-
 <p float="left">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_2_Box.png" height="300">
+ctal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_2_Box.png" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFra
-ctal/§Contorno_Vetor/Other_1.2/T_04_07+.png" height="300">
+ctal/Contorno_Vetor/Other_1.2/T_04_07+.png" height="300">
 </p>
