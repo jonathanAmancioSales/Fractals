@@ -1,5 +1,5 @@
 //=========================================================
-// Name        : Sierpisnki_Carpet_Matrix.cpp
+// Name        : Sierpinski_Carpet_Matrix.cpp
 // Author      : Jonathan Amancio
 // Description : Carpet de Sierpinsk [Matriz method] (2017/06/13);
 //=========================================================

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file_cpp=Sierpisnki_Carpet_Box.cpp
+file_cpp=Sierpinski_Carpet_Box.cpp
 
 g++ -O3 -std=c++11 $file_cpp
 ./a.out $1

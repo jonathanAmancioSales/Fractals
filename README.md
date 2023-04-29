@@ -11,7 +11,7 @@ ___
 </p>
 
 <p float="left">
-<img src="Sierpisnki_Carpet/Sierpisnki_Carpet_Matrix/images/Sierpisnki_Carpet__step_6.gif" height="300">
+<img src="Sierpinski_Carpet/Sierpinski_Carpet_Matrix/images/Sierpinski_Carpet__step_6.gif" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_0.71_Box_Tsquare.png" height="300">
 </p>
 

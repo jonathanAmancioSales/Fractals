@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cpp_script=Sierpisnki_Carpet_Matrix.cpp
+cpp_script=Sierpinski_Carpet_Matrix.cpp
 
 #N=6
 N=$1

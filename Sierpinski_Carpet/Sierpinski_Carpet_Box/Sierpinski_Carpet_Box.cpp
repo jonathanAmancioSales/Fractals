@@ -1,5 +1,5 @@
 //=========================================================
-// Name        : Sierpisnki_Carpet_Box.cpp
+// Name        : Sierpinski_Carpet_Box.cpp
 // Author      : Jonathan Amancio
 // Description : Carpete de Sierpinsk (box) [25-26.08.2019]
 //=========================================================
