@@ -1,0 +1,12 @@
+L=1
+h=L*sqrt(3)/2.0
+a=L*sqrt(3)/6.0
+
+S1="set object"
+S2="polygon from"
+S3="fc rgb 'black' fillstyle solid noborder"
+
+Ox=0; Oy=0; j=1
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+

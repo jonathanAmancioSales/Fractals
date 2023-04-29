@@ -1,0 +1,980 @@
+L=0.03125
+h=L*sqrt(3)/2.0
+a=L*sqrt(3)/6.0
+
+S1="set object"
+S2="polygon from"
+S3="fc rgb 'black' fillstyle solid noborder"
+
+Ox=-2.44481e-08; Oy=0.559308; j=1
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.015625; Oy=0.532245; j=2
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.015625; Oy=0.532245; j=3
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.03125; Oy=0.505181; j=4
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.046875; Oy=0.478118; j=5
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.015625; Oy=0.478118; j=6
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.03125; Oy=0.505181; j=7
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.015625; Oy=0.478118; j=8
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.046875; Oy=0.478118; j=9
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0625; Oy=0.451055; j=10
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.078125; Oy=0.423992; j=11
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.046875; Oy=0.423992; j=12
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.09375; Oy=0.396928; j=13
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.109375; Oy=0.369865; j=14
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.078125; Oy=0.369865; j=15
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.03125; Oy=0.396928; j=16
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.046875; Oy=0.369865; j=17
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.015625; Oy=0.369865; j=18
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0625; Oy=0.451055; j=19
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.046875; Oy=0.423992; j=20
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.078125; Oy=0.423992; j=21
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.03125; Oy=0.396928; j=22
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.015625; Oy=0.369865; j=23
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.046875; Oy=0.369865; j=24
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.09375; Oy=0.396928; j=25
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.078125; Oy=0.369865; j=26
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.109375; Oy=0.369865; j=27
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.125; Oy=0.342802; j=28
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.140625; Oy=0.315738; j=29
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.109375; Oy=0.315738; j=30
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.15625; Oy=0.288675; j=31
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=0.261612; j=32
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.140625; Oy=0.261612; j=33
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.09375; Oy=0.288675; j=34
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.109375; Oy=0.261612; j=35
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.078125; Oy=0.261612; j=36
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.1875; Oy=0.234549; j=37
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.203125; Oy=0.207485; j=38
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=0.207485; j=39
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.21875; Oy=0.180422; j=40
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.234375; Oy=0.153359; j=41
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.203125; Oy=0.153359; j=42
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.15625; Oy=0.180422; j=43
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=0.153359; j=44
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.140625; Oy=0.153359; j=45
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0625; Oy=0.234549; j=46
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.078125; Oy=0.207485; j=47
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.046875; Oy=0.207485; j=48
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.09375; Oy=0.180422; j=49
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.109375; Oy=0.153359; j=50
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.078125; Oy=0.153359; j=51
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.03125; Oy=0.180422; j=52
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.046875; Oy=0.153359; j=53
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.015625; Oy=0.153359; j=54
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.125; Oy=0.342802; j=55
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.109375; Oy=0.315738; j=56
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.140625; Oy=0.315738; j=57
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.09375; Oy=0.288675; j=58
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.078125; Oy=0.261612; j=59
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.109375; Oy=0.261612; j=60
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.15625; Oy=0.288675; j=61
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.140625; Oy=0.261612; j=62
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=0.261612; j=63
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0625; Oy=0.234549; j=64
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.046875; Oy=0.207485; j=65
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.078125; Oy=0.207485; j=66
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.03125; Oy=0.180422; j=67
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.015625; Oy=0.153359; j=68
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.046875; Oy=0.153359; j=69
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.09375; Oy=0.180422; j=70
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.078125; Oy=0.153359; j=71
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.109375; Oy=0.153359; j=72
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.1875; Oy=0.234549; j=73
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=0.207485; j=74
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.203125; Oy=0.207485; j=75
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.15625; Oy=0.180422; j=76
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.140625; Oy=0.153359; j=77
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=0.153359; j=78
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.21875; Oy=0.180422; j=79
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.203125; Oy=0.153359; j=80
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.234375; Oy=0.153359; j=81
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.25; Oy=0.126295; j=82
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.265625; Oy=0.099232; j=83
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.234375; Oy=0.099232; j=84
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.28125; Oy=0.0721687; j=85
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.296875; Oy=0.0451054; j=86
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.265625; Oy=0.0451054; j=87
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.21875; Oy=0.0721688; j=88
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.234375; Oy=0.0451055; j=89
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.203125; Oy=0.0451055; j=90
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.3125; Oy=0.0180421; j=91
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.328125; Oy=-0.00902116; j=92
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.296875; Oy=-0.00902115; j=93
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.34375; Oy=-0.0360845; j=94
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.359375; Oy=-0.0631478; j=95
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.328125; Oy=-0.0631477; j=96
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.28125; Oy=-0.0360844; j=97
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.296875; Oy=-0.0631477; j=98
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.265625; Oy=-0.0631477; j=99
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.1875; Oy=0.0180422; j=100
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.203125; Oy=-0.00902113; j=101
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=-0.00902112; j=102
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.21875; Oy=-0.0360844; j=103
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.234375; Oy=-0.0631477; j=104
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.203125; Oy=-0.0631477; j=105
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.15625; Oy=-0.0360844; j=106
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=-0.0631477; j=107
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.140625; Oy=-0.0631477; j=108
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.375; Oy=-0.090211; j=109
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.390625; Oy=-0.117274; j=110
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.359375; Oy=-0.117274; j=111
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.40625; Oy=-0.144338; j=112
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.421875; Oy=-0.171401; j=113
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.390625; Oy=-0.171401; j=114
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.34375; Oy=-0.144338; j=115
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.359375; Oy=-0.171401; j=116
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.328125; Oy=-0.171401; j=117
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.4375; Oy=-0.198464; j=118
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.453125; Oy=-0.225528; j=119
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.421875; Oy=-0.225528; j=120
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.46875; Oy=-0.252591; j=121
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.484375; Oy=-0.279654; j=122
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.453125; Oy=-0.279654; j=123
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.40625; Oy=-0.252591; j=124
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.421875; Oy=-0.279654; j=125
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.390625; Oy=-0.279654; j=126
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.3125; Oy=-0.198464; j=127
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.328125; Oy=-0.225528; j=128
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.296875; Oy=-0.225528; j=129
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.34375; Oy=-0.252591; j=130
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.359375; Oy=-0.279654; j=131
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.328125; Oy=-0.279654; j=132
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.28125; Oy=-0.252591; j=133
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.296875; Oy=-0.279654; j=134
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.265625; Oy=-0.279654; j=135
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.125; Oy=-0.090211; j=136
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.140625; Oy=-0.117274; j=137
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.109375; Oy=-0.117274; j=138
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.15625; Oy=-0.144338; j=139
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=-0.171401; j=140
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.140625; Oy=-0.171401; j=141
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0937499; Oy=-0.144338; j=142
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.109375; Oy=-0.171401; j=143
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0781249; Oy=-0.171401; j=144
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.1875; Oy=-0.198464; j=145
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.203125; Oy=-0.225527; j=146
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=-0.225527; j=147
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.21875; Oy=-0.252591; j=148
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.234375; Oy=-0.279654; j=149
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.203125; Oy=-0.279654; j=150
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.15625; Oy=-0.252591; j=151
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.171875; Oy=-0.279654; j=152
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.140625; Oy=-0.279654; j=153
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0624999; Oy=-0.198464; j=154
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0781249; Oy=-0.225527; j=155
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0468749; Oy=-0.225527; j=156
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0937499; Oy=-0.252591; j=157
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.109375; Oy=-0.279654; j=158
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0781249; Oy=-0.279654; j=159
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0312499; Oy=-0.252591; j=160
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0468749; Oy=-0.279654; j=161
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=-0.0156249; Oy=-0.279654; j=162
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.25; Oy=0.126295; j=163
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.234375; Oy=0.0992321; j=164
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.265625; Oy=0.0992322; j=165
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.21875; Oy=0.0721689; j=166
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.203125; Oy=0.0451056; j=167
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.234375; Oy=0.0451056; j=168
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.28125; Oy=0.0721689; j=169
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.265625; Oy=0.0451056; j=170
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.296875; Oy=0.0451056; j=171
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.1875; Oy=0.0180423; j=172
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=-0.00902104; j=173
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.203125; Oy=-0.00902103; j=174
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.15625; Oy=-0.0360843; j=175
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.140625; Oy=-0.0631476; j=176
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=-0.0631476; j=177
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.21875; Oy=-0.0360843; j=178
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.203125; Oy=-0.0631476; j=179
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.234375; Oy=-0.0631476; j=180
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.3125; Oy=0.0180423; j=181
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.296875; Oy=-0.00902101; j=182
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.328125; Oy=-0.009021; j=183
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.28125; Oy=-0.0360843; j=184
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.265625; Oy=-0.0631476; j=185
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.296875; Oy=-0.0631476; j=186
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.34375; Oy=-0.0360843; j=187
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.328125; Oy=-0.0631476; j=188
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.359375; Oy=-0.0631476; j=189
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.125; Oy=-0.0902109; j=190
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.109375; Oy=-0.117274; j=191
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.140625; Oy=-0.117274; j=192
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0937501; Oy=-0.144338; j=193
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0781251; Oy=-0.171401; j=194
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.109375; Oy=-0.171401; j=195
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.15625; Oy=-0.144338; j=196
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.140625; Oy=-0.171401; j=197
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=-0.171401; j=198
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0625001; Oy=-0.198464; j=199
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0468751; Oy=-0.225527; j=200
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0781251; Oy=-0.225527; j=201
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0312501; Oy=-0.252591; j=202
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0156251; Oy=-0.279654; j=203
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0468751; Oy=-0.279654; j=204
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0937501; Oy=-0.252591; j=205
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.0781251; Oy=-0.279654; j=206
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.109375; Oy=-0.279654; j=207
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.1875; Oy=-0.198464; j=208
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=-0.225527; j=209
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.203125; Oy=-0.225527; j=210
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.15625; Oy=-0.252591; j=211
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.140625; Oy=-0.279654; j=212
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.171875; Oy=-0.279654; j=213
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.21875; Oy=-0.252591; j=214
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.203125; Oy=-0.279654; j=215
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.234375; Oy=-0.279654; j=216
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.375; Oy=-0.0902109; j=217
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.359375; Oy=-0.117274; j=218
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.390625; Oy=-0.117274; j=219
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.34375; Oy=-0.144337; j=220
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.328125; Oy=-0.171401; j=221
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.359375; Oy=-0.171401; j=222
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.40625; Oy=-0.144337; j=223
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.390625; Oy=-0.171401; j=224
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.421875; Oy=-0.171401; j=225
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.3125; Oy=-0.198464; j=226
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.296875; Oy=-0.225527; j=227
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.328125; Oy=-0.225527; j=228
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.28125; Oy=-0.252591; j=229
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.265625; Oy=-0.279654; j=230
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.296875; Oy=-0.279654; j=231
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.34375; Oy=-0.252591; j=232
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.328125; Oy=-0.279654; j=233
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.359375; Oy=-0.279654; j=234
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.4375; Oy=-0.198464; j=235
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.421875; Oy=-0.225527; j=236
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.453125; Oy=-0.225527; j=237
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.40625; Oy=-0.252591; j=238
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.390625; Oy=-0.279654; j=239
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.421875; Oy=-0.279654; j=240
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.46875; Oy=-0.252591; j=241
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.453125; Oy=-0.279654; j=242
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
+Ox=0.484375; Oy=-0.279654; j=243
+@S1 j @S2 Ox,Oy+h-a to Ox-0.5*L,Oy-a to Ox+0.5*L,Oy-a to Ox,Oy+h-a
+@S1 j @S3
+
