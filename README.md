@@ -49,3 +49,5 @@ ___
 <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_2_Box.png" height="300">
 <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/T_04_07+.png" height="300">
 </p>
+
+<img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000].png" height="226">
