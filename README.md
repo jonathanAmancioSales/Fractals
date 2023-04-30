@@ -13,6 +13,11 @@ ___
 <img src="Sierpinski_Triangle/Remove_Triangles_method/images/T_08.txt.png" height="260">
 
 <p float="left">
+  <img src="Sierpinski_Triangle/Automato_Celular_method/Rule_090/Pontos_%5B2200x1023%5D.svg" width="300"/>
+  <img src="Sierpinski_Triangle/Automato_Celular_method/Rule_150/Pontos.txt.svg" width="300"/>
+</p>
+
+<p float="left">
 <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_0.71_Box_Tsquare.png" height="300">
 <img src="Sierpinski_Carpet/Sierpinski_Carpet_Matrix/images/Sierpinski_Carpet__step_6.gif" height="300">
 </p>
