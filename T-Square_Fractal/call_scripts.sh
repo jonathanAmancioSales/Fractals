@@ -17,6 +17,7 @@ rm a.out
 ###################
 file2=T-Square.gnu
 sed -i '/file=/c\file="'$file3'"' $file2
+# read
 gnuplot $file2
 mv Box.png Box_0$N.png
 ###################
