@@ -30,10 +30,11 @@ set size square
 stats file nooutput
 # show variables all
 ###################
-#set xr[-2:542]; set yr[-257:2]
 dy=2
+dx=0
 print STATS_min_y, STATS_max_y
 set yr[-dy + STATS_min_y:STATS_max_y + dy]
+#set xr[-dx + STATS_min_x:STATS_max_x + dx]
 ###################
 #p file pt 9 ps 1.6 lc rgb 'black'
 #p file pt 9 ps 0.86 lc rgb 'black'
