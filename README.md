@@ -58,3 +58,8 @@ ___
 </p>
 
 <img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000].png" height="226">
+
+<p float="left">
+<img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_TIP.png height="300">
+<img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_NTIP.png height="300">
+</p>
