@@ -20,7 +20,6 @@ int main() {
     cout << "***Triangulo de Pascal***" << endl;
 
     N = D + 1;
-    //float P[N + 1][N + 1];
     long long int P[N + 1][N + 1];
 
     for(i=0; i<=N; i++)
