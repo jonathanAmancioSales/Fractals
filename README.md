@@ -10,22 +10,24 @@ ___
   <img src="Multi_Fractal_Tree/03_Ramos_[Sierpinski_Triangle]/03_Ramos/Multi_Fractal_60_08_Angle [15-120]_pattern1+_reverse.gif" width="300"/>
 </p>
 
-
-<p float="left">
-  <img src="Sierpinski_Triangle/Remove_Triangles_method/Sierpinski_Triangle_10.gif" height="260">
-  <img src="Sierpinski_Triangle/Pascal_method/images/Pontos[4][511].txt.png" width="300"/>
-</p>
-
-
-<p float="left">
-  <img src="Sierpinski_Triangle/Pascal_method/images/Pontos[6][511].txt.png" width="300"/>
-  <img src="Sierpinski_Triangle/Pascal_method/images/Pontos[8][511].txt.png" width="300"/>
-</p>
-
-
 <p float="left">
   <img src="Sierpinski_Triangle/Automato_Celular_method/Rule_090/Pontos_%5B2200x1023%5D.svg" width="300"/>
   <img src="Sierpinski_Triangle/Automato_Celular_method/Rule_150/Pontos.txt.svg" width="300"/>
+</p>
+
+<p float="left">
+  <img src="Sierpinski_Triangle/Pascal_method/Simetric/images/Pontos[2][511].txt.png" width="300"/>
+  <img src="Sierpinski_Triangle/Remove_Triangles_method/Sierpinski_Triangle_10.gif" height="260">
+</p>
+
+<p float="left">
+  <img src="Sierpinski_Triangle/Pascal_method/images/Pontos[6][511].txt.png" width="300"/>
+  <img src="Sierpinski_Triangle/Pascal_method/images/Pontos[4][511].txt.png" width="300"/>
+</p>
+
+<p float="left">
+  <img src="Sierpinski_Triangle/Pascal_method/images/Pontos[8][511].txt.png" width="300"/>
+  <img src="Sierpinski_Triangle/Pascal_method/images/Pontos[16][511].txt.png" width="300"/>
 </p>
 
 <p float="left">
