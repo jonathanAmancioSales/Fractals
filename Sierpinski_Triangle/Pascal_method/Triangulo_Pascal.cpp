@@ -9,14 +9,15 @@
 #include <fstream>
 
 // exibir divisiveis por div:
-#define div 4
-#define D 767
+#define div 32
+#define D 511
 
 using namespace std;
 
 
 int main() {
     int i, j, N;
+    int is_simetric = 0;
     cout << "***Triangulo de Pascal***" << endl;
 
     N = D + 1;
@@ -44,11 +45,26 @@ int main() {
     result.open(data);
 
     result << "#D="<<D<<"; div="<<div<<"\n";
-    for(i=1; i<=N; i++)
-    {
-        for(j=1; j<=i; j++)
-        {   if(P[i][j]%div == 0) {}
-            else { result << (j-1)-0.5*(i-1) << "\t" << -(i-1)<< "\n"; }
+    if(is_simetric == 0){
+        for(i=1; i<=N; i++)
+        {
+            for(j=1; j<=i; j++)
+            {   if(P[i][j]%div == 0) {}
+                else { result << (j-1)-0.5*(i-1) << "\t" << -(i-1)<< "\n"; }
+            }
+        }
+    }
+    else{
+        for(i=1; i<=N; i++)
+        {
+            for(j=i; j>1; j--)
+            {    if(P[i][j]%div == 0) {}
+                else { result << -(j-1) << "\t" << -(i-1) << "\n"; }
+            }
+            for(j=1; j<=i; j++)
+            {   if(P[i][j]%div == 0) {}
+                else { result << (j-1) << "\t" << -(i-1) << "\n"; }
+            }
         }
     }
     result.close();
