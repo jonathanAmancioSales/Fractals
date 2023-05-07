@@ -31,18 +31,18 @@ ___
 </p>
 
 <p float="left">
-<img src="Sierpinski_Carpet/Sierpinski_Carpet_Matrix/images/Sierpinski_Carpet__step_6.gif" height="300">
-<img src="T-Square_Fractal/T-Square_Fractal.gif" height="300">
+  <img src="Sierpinski_Carpet/Sierpinski_Carpet_Matrix/images/Sierpinski_Carpet__step_6.gif" height="300">
+  <img src="T-Square_Fractal/T-Square_Fractal.gif" height="300">
 </p>
 
 <p float="left">
-<img src="T-Square_Fractal/images/Box_10.png" height="300">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_0.71_Box_Tsquare.png" height="300">
+  <img src="T-Square_Fractal/images/Box_10.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_0.71_Box_Tsquare.png" height="300">
 </p>
 
 <p float="left">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/T_04_08_1.2.png" height="300">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/T_04_08_1.5.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/T_04_08_1.2.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/T_04_08_1.5.png" height="300">
 </p>
 
 <p float="left">
@@ -56,28 +56,38 @@ ___
 </p>
 
 <p float="left">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/06/T_06_07.txt.png" height="300">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/07/T_07_06.txt.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/06/T_06_07.txt.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/07/T_07_06.txt.png" height="300">
 </p>
 
 <p float="left">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/03/T_03_06.txt.png" height="300">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/04/T_04_07.txt.png" height="300">
+  <img src="Multi_Fractal_Tree/04_Ramos/T_060_04_09.txt.png" height="260">
+  <img src="Multi_Fractal_Tree/04_Ramos/T_075_04_08.txt.png" height="260">
 </p>
 
 <p float="left">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/N_Circles_level_06/PNG_04/T_04_06.txt.png" height="300">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/N_Circles_level_06/PNG_08/T_08_06.txt.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/03/T_03_06.txt.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/04/T_04_07.txt.png" height="300">
 </p>
 
 <p float="left">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_2_Box.png" height="300">
-<img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/T_04_07+.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/N_Circles_level_06/PNG_04/T_04_06.txt.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/N_Circles_level_06/PNG_08/T_08_06.txt.png" height="300">
+</p>
+
+<p float="left">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/Box_T-Square/T_04_08_2_Box.png" height="300">
+  <img src="Multi_Fractal_Tree/Circle_MultiFractal/Contorno_Vetor/Other_1.2/T_04_07+.png" height="300">
+</p>
+
+<p float="left">
+  <img src="Multi_Fractal_Tree/07_Ramos/T_090_07_06.txt_circle.png" height="260">
+  <img src="Multi_Fractal_Tree/04_Ramos/GIF_04_07_[0-180].gif" height="260">
 </p>
 
 <img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000].png" height="226">
 
 <p float="left">
-<img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_TIP.png height="302">
-<img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_NTIP.png height="302">
+  <img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_TIP.png height="302">
+  <img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_NTIP.png height="302">
 </p>
