@@ -85,7 +85,10 @@ ___
   <img src="Multi_Fractal_Tree/04_Ramos/GIF_04_07_[0-180].gif" height="260">
 </p>
 
-<img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000].png" height="226">
+<p float="left">
+  <img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000].png" height="226">
+  <img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000]_original.png" height="226">
+</p>
 
 <p float="left">
   <img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_TIP.png height="302">
