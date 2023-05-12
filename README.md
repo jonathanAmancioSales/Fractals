@@ -86,8 +86,13 @@ ___
 </p>
 
 <p float="left">
-  <img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000].png" height="226">
-  <img src="Samambaia_Fractal_[Barnsley_fern]/Folha_[3.500.000]_original.png" height="226">
+  <img src="Samambaia_Fractal_[Barnsley_fern]/Samambaia_Fractal_C++/Folha_[3.500.000].png" height="226">
+  <img src="Samambaia_Fractal_[Barnsley_fern]/Samambaia_Fractal_C++/Folha_[3.500.000]_original.png" height="226">
+</p>
+
+<p float="left">
+  <img src="Samambaia_Fractal_[Barnsley_fern]/Samambaia_Fractal_py/images/fern_data_culcita_5000000.txt.png" height="226">
+  <img src="Samambaia_Fractal_[Barnsley_fern]/Samambaia_Fractal_py/images/fern_data_modified_barnsley_JS_2_7000000.txt.png" height="226">
 </p>
 
 <p float="left">
