@@ -12,4 +12,4 @@ echo 'Generate image...'
 gnuplot -c generate_image.gnu $data_file
 ###################
 # bash call_scripts.sh 1000000 barnsley
-#barnsley, modified_barnsley, culcita, cyclosorus, fractal_tree
+#barnsley, modified_barnsley, culcita, cyclosorus, fractal_tree, modified_barnsley_JS_1

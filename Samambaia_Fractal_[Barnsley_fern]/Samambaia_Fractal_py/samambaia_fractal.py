@@ -31,6 +31,18 @@ class SamambaiaFractal():
                 3: (0.2, -0.26, 0.23, 0.22, 0, 1.6),
                 4: (-0.15, 0.28, 0.26, 0.24, 0, 0.44),
             },
+            'modified_barnsley_JS_1': {
+                1: (0, 0, 0, 0.16, 0, 0),
+                2: (0.85, 0.04, -0.001, 0.85, 0, 1.6),
+                4: (0.2, -0.26, 0.23, 0.22, 0, 1.6),
+                3: (-0.15, 0.28, 0.26, 0.24, 0, 0.44),
+            },
+            'modified_barnsley_JS_2': {
+                1: (0, 0, 0, 0.16, 0, 0),
+                2: (0.85, 0.004, -0.001, 0.85, 0, 1.6),
+                4: (0.2, -0.26, 0.23, 0.22, 0, 1.6),
+                3: (-0.15, 0.28, 0.26, 0.24, 0, 0.44),
+            },
             'modified_barnsley': {
                 1: (0, 0, 0, 0.2, 0, -0.12),
                 2: (0.845, 0.035, -0.03, 0.82, 0, 1.6),
@@ -78,6 +90,8 @@ class SamambaiaFractal():
         }
         probability_['cyclosorus'] = probability_['culcita']
         probability_['modified_barnsley'] = probability_['barnsley']
+        probability_['modified_barnsley_JS_1'] = probability_['barnsley']
+        probability_['modified_barnsley_JS_2'] = probability_['barnsley']
 
         return matrix_[self.type], probability_[self.type]
     
@@ -109,7 +123,7 @@ class SamambaiaFractal():
         y = self.ynew
         self.xnew = a*x + b*y + e
         self.ynew = c*x + d*y + f
-        # self.ynew = c*self.xnew + d*y + f  # modified_barnsley_JS_2: Tornar as folhas finas.
+        # self.ynew = c*self.xnew + d*y + f  # modified_barnsley_JS_0: Tornar as folhas finas.
 
     def _write_values(self, mode='w') -> None:
         with open(f'fern_data_{self.type}_{self.number_of_points}.txt', mode) as f:
