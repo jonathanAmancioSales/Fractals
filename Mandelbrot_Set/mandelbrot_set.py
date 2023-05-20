@@ -33,41 +33,48 @@ class MandelbrotSet:
                 return iteration
         return self.max_iterations
 
-    def generate_image(self):
-        # Image size (pixels)
-        height = 1000
-        width = int(height * 1.5)
+    def generate_image(self, height=1000, width=None):
+        if width is None:
+            width = int(height * 1.5)
 
-        # Plot window
+        self.width = width
+        self.height = height
+
         limits = {'re_start': -2.1, 're_end': 1.3, 'im_start': -1.2, 'im_end': 1.2}  # default
-        limits = {'re_start': -1.805, 're_end': -1.725, 'im_start': -0.03, 'im_end': 0.03}
-        re_start = limits['re_start']
-        re_end = limits['re_end']
-        im_start = limits['im_start']
-        im_end = limits['im_end']
+        limits = {'re_start': -1.805, 're_end': -1.725, 'im_start': -0.03, 'im_end': 0.03}  # tail
+        self.limits = limits
 
         image = Image.new('RGB', (width, height), (0, 0, 0))
         draw = ImageDraw.Draw(image)
 
         for x in range(width):
             for y in range(height):
-                # Convert pixel coordinate to complex number
-                c = complex(
-                    re_start + (x / width) * (re_end - re_start),
-                    im_start + (y / height) * (im_end - im_start)
-                )
-                # Compute the number of iterations
+                # Convert pixel coordinate to complex number:
+                c = self._get_complex_number(x, y)
+
                 instability = 1 - self.stability(c, smooth=True)
                 color = int(instability * 255)
-                # Plot the point
+                # Plot the point:
                 draw.point([x, y], (color, color, color))
 
         image.save(
-            f'mandelbrot_set_{self.max_iterations}_{self.escape_radius}_{height}.png',
+            f'mandelbrot_set_{self.max_iterations}_{self.escape_radius}_{self.height}.png',
             'PNG'
+        )
+
+    def _get_complex_number(self, x: float, y: float) -> complex:
+        re_start = self.limits['re_start']
+        re_end = self.limits['re_end']
+        im_start = self.limits['im_start']
+        im_end = self.limits['im_end']
+
+        # Convert coordinate to complex number:
+        return complex(
+            re_start + (x / self.width) * (re_end - re_start),
+            im_start + (y / self.height) * (im_end - im_start)
         )
 
 
 if __name__ == '__main__':
     mandelbrot_set = MandelbrotSet(max_iterations=80)
-    mandelbrot_set.generate_image()
+    mandelbrot_set.generate_image(height=1000)
