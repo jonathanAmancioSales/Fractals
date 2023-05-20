@@ -101,6 +101,16 @@ ___
 </p>
 
 <p float="left">
+  <img src="Mandelbrot_Set/mandelbrot_set_100_2.0_8000.png" height="200">
+  <img src="Mandelbrot_Set/mandelbrot_set_180_2.0_8000_tail.png" height="200">
+</p>
+
+<p float="left">
+  <img src="Mandelbrot_Set/with_PIL/mandelbrot_set_250_8000_pil_spiral.png" height="300">
+  <img src="Mandelbrot_Set/with_PIL/mandelbrot_set_1050_4000_pil_island.png" height="300">
+</p>
+
+<p float="left">
   <img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_TIP.png height="302">
   <img src=https://github.com/jonathanAmancioSales/Invasion_Percolation/blob/main/Results%20(Images%2C%20movie)/M_400_NTIP.png height="302">
 </p>
