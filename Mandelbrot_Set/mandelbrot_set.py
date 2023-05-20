@@ -44,11 +44,15 @@ class MandelbrotSet:
         limits = {'re_start': -1.805, 're_end': -1.725, 'im_start': -0.03, 'im_end': 0.03}  # tail
         self.limits = limits
 
-        image = Image.new('RGB', (width, height), (0, 0, 0))
-        draw = ImageDraw.Draw(image)
+        self._generate_image()
+        self._save_image()
 
-        for x in range(width):
-            for y in range(height):
+    def _generate_image(self):
+        self.image = Image.new('RGB', (self.width, self.height), (0, 0, 0))
+        draw = ImageDraw.Draw(self.image)
+
+        for x in range(self.width):
+            for y in range(self.height):
                 # Convert pixel coordinate to complex number:
                 c = self._get_complex_number(x, y)
 
@@ -57,7 +61,8 @@ class MandelbrotSet:
                 # Plot the point:
                 draw.point([x, y], (color, color, color))
 
-        image.save(
+    def _save_image(self):
+        self.image.save(
             f'mandelbrot_set_{self.max_iterations}_{self.escape_radius}_{self.height}.png',
             'PNG'
         )
