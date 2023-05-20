@@ -35,14 +35,16 @@ class MandelbrotSet:
 
     def generate_image(self):
         # Image size (pixels)
-        height = 4000
+        height = 1000
         width = int(height * 1.5)
 
         # Plot window
-        re_start = -2.1
-        re_end = 1.3
-        im_start = -1.2
-        im_end = 1.2
+        limits = {'re_start': -2.1, 're_end': 1.3, 'im_start': -1.2, 'im_end': 1.2}  # default
+        limits = {'re_start': -1.805, 're_end': -1.725, 'im_start': -0.03, 'im_end': 0.03}
+        re_start = limits['re_start']
+        re_end = limits['re_end']
+        im_start = limits['im_start']
+        im_end = limits['im_end']
 
         image = Image.new('RGB', (width, height), (0, 0, 0))
         draw = ImageDraw.Draw(image)
