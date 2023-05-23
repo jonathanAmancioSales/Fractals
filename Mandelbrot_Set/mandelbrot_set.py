@@ -1,5 +1,6 @@
 #===============================================================
 # Name        : mandelbrot_set.py
+# Author      : Jonathan Amancio
 # Description : Mandelbrot set fractal
 #     Based on:
 #      - https://realpython.com/mandelbrot-set-python/
@@ -8,8 +9,10 @@
 
 from dataclasses import dataclass
 from math import log
-from PIL import Image, ImageDraw
+from PIL import Image
 
+import numpy as np
+from matplotlib import cm
 
 @dataclass
 class MandelbrotSet:
@@ -33,33 +36,40 @@ class MandelbrotSet:
                 return iteration
         return self.max_iterations
 
-    def generate_image(self, height=1000, width=None):
+    def generate_image(self, height=1000, width=None, colorful=False):
         if width is None:
             width = int(height * 1.5)
 
         self.width = width
         self.height = height
 
+        self._generate_image(colorful)
+        self._save_image()
+
+    def _generate_image(self, colorful=False):
+        matrix = np.array(list(self._generate_data())).reshape(self.width, self.height)
+        matrix = np.rot90(matrix, 1)
+
+        self.image = Image.new('RGB', (self.width, self.height), (0, 0, 0))
+        if colorful:
+            palette = cm.BrBG
+            # palette = cm.jet
+            # palette = cm.twilight_shifted
+            self.image = Image.fromarray(np.uint8(palette(matrix)*255))
+        else:
+            self.image = Image.fromarray(np.uint8(matrix*255))
+
+    def _generate_data(self):
         limits = {'re_start': -2.1, 're_end': 1.3, 'im_start': -1.2, 'im_end': 1.2}  # default
         limits = {'re_start': -1.805, 're_end': -1.725, 'im_start': -0.03, 'im_end': 0.03}  # tail
         self.limits = limits
-
-        self._generate_image()
-        self._save_image()
-
-    def _generate_image(self):
-        self.image = Image.new('RGB', (self.width, self.height), (0, 0, 0))
-        draw = ImageDraw.Draw(self.image)
 
         for x in range(self.width):
             for y in range(self.height):
                 # Convert pixel coordinate to complex number:
                 c = self._get_complex_number(x, y)
-
                 instability = 1 - self.stability(c, smooth=True)
-                color = int(instability * 255)
-                # Plot the point:
-                draw.point([x, y], (color, color, color))
+                yield instability
 
     def _save_image(self):
         self.image.save(
@@ -81,5 +91,5 @@ class MandelbrotSet:
 
 
 if __name__ == '__main__':
-    mandelbrot_set = MandelbrotSet(max_iterations=80)
-    mandelbrot_set.generate_image(height=1000)
+    mandelbrot_set = MandelbrotSet(max_iterations=200)
+    mandelbrot_set.generate_image(height=4000, colorful=True)
