@@ -55,6 +55,7 @@ class MandelbrotSet:
             palette = cm.BrBG
             # palette = cm.jet
             # palette = cm.twilight_shifted
+            palette = cm.gist_heat
             self.image = Image.fromarray(np.uint8(palette(matrix)*255))
         else:
             self.image = Image.fromarray(np.uint8(matrix*255))
@@ -73,7 +74,7 @@ class MandelbrotSet:
 
     def _save_image(self):
         self.image.save(
-            f'mandelbrot_set_{self.max_iterations}_{self.escape_radius}_{self.height}.png',
+            f'mandelbrot_set_{self.max_iterations}_{self.height}.png',
             'PNG'
         )
 

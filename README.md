@@ -101,8 +101,8 @@ ___
 </p>
 
 <p float="left">
-  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_80_2.0_4000.png" height="200">
-  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_120_2.0_8000_tail.png" height="200">
+  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_80_4000.png" height="200">
+  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_100_4000_tail_brbg.png" height="200">
 </p>
 
 <p float="left">
