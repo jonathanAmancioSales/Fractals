@@ -101,13 +101,13 @@ ___
 </p>
 
 <p float="left">
-  <img src="Mandelbrot_Set/mandelbrot_set_80_2.0_4000.png" height="200">
-  <img src="Mandelbrot_Set/mandelbrot_set_120_2.0_8000_tail.png" height="200">
+  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_80_2.0_4000.png" height="200">
+  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_120_2.0_8000_tail.png" height="200">
 </p>
 
 <p float="left">
-  <img src="Mandelbrot_Set/with_PIL/mandelbrot_set_250_8000_pil_spiral.png" height="300">
-  <img src="Mandelbrot_Set/with_PIL/mandelbrot_set_1050_4000_pil_island.png" height="300">
+  <img src="Mandelbrot_Set/mandelbrot_set_with_PIL/mandelbrot_set_250_8000_pil_spiral.png" height="300">
+  <img src="Mandelbrot_Set/mandelbrot_set_with_PIL/mandelbrot_set_1050_4000_pil_island.png" height="300">
 </p>
 
 <p float="left">
