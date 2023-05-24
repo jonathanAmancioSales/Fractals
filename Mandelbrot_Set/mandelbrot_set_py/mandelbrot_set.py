@@ -64,6 +64,7 @@ class MandelbrotSet:
         limits_dict = {
             'default': (-2.1, 1.3, -1.2, 1.2),
             'tail': (-1.805, -1.725, -0.03, 0.03),
+            'spiral': (-0.7445, -0.7425, 0.1304, 0.1324),
             'island': (
                 -0.744539761 - 0.5*6.25e-6, -0.744539761 + 0.5*6.25e-6,
                 0.121724001 - 0.5*6.25e-6, 0.121724001 + 0.5*6.25e-6
@@ -73,7 +74,7 @@ class MandelbrotSet:
                 0.118346 - 0.5*7e-4, 0.118346 + 0.5*7e-4
             )
         }
-        limits_ = limits_dict['island']
+        limits_ = limits_dict['spiral']
         self.limits = {
             're_start': limits_[0],
             're_end': limits_[1],
@@ -107,6 +108,6 @@ class MandelbrotSet:
 
 
 if __name__ == '__main__':
-    mandelbrot_set = MandelbrotSet(max_iterations=800)
+    mandelbrot_set = MandelbrotSet(max_iterations=1000)
     #mandelbrot_set.generate_image(height=4000, colorful=True)
-    mandelbrot_set.generate_image(height=1000, width=1000, colorful=True)
+    mandelbrot_set.generate_image(height=2000, width=2000, colorful=True)
