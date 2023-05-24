@@ -55,15 +55,31 @@ class MandelbrotSet:
             palette = cm.BrBG
             # palette = cm.jet
             # palette = cm.twilight_shifted
-            palette = cm.gist_heat
+            # palette = cm.gist_heat
             self.image = Image.fromarray(np.uint8(palette(matrix)*255))
         else:
             self.image = Image.fromarray(np.uint8(matrix*255))
 
     def _generate_data(self):
-        limits = {'re_start': -2.1, 're_end': 1.3, 'im_start': -1.2, 'im_end': 1.2}  # default
-        limits = {'re_start': -1.805, 're_end': -1.725, 'im_start': -0.03, 'im_end': 0.03}  # tail
-        self.limits = limits
+        limits_dict = {
+            'default': (-2.1, 1.3, -1.2, 1.2),
+            'tail': (-1.805, -1.725, -0.03, 0.03),
+            'island': (
+                -0.744539761 - 0.5*6.25e-6, -0.744539761 + 0.5*6.25e-6,
+                0.121724001 - 0.5*6.25e-6, 0.121724001 + 0.5*6.25e-6
+            ),
+            'island_2': (
+                -0.745067 - 0.5*7e-4, -0.745067 + 0.5*7e-4,
+                0.118346 - 0.5*7e-4, 0.118346 + 0.5*7e-4
+            )
+        }
+        limits_ = limits_dict['island']
+        self.limits = {
+            're_start': limits_[0],
+            're_end': limits_[1],
+            'im_start': limits_[2],
+            'im_end': limits_[3]
+        }
 
         for x in range(self.width):
             for y in range(self.height):
@@ -74,8 +90,7 @@ class MandelbrotSet:
 
     def _save_image(self):
         self.image.save(
-            f'mandelbrot_set_{self.max_iterations}_{self.height}.png',
-            'PNG'
+            f'mandelbrot_set_{self.max_iterations}_{self.height}.png', 'PNG'
         )
 
     def _get_complex_number(self, x: float, y: float) -> complex:
@@ -92,5 +107,6 @@ class MandelbrotSet:
 
 
 if __name__ == '__main__':
-    mandelbrot_set = MandelbrotSet(max_iterations=200)
-    mandelbrot_set.generate_image(height=4000, colorful=True)
+    mandelbrot_set = MandelbrotSet(max_iterations=800)
+    #mandelbrot_set.generate_image(height=4000, colorful=True)
+    mandelbrot_set.generate_image(height=1000, width=1000, colorful=True)
