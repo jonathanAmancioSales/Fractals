@@ -46,15 +46,20 @@ class MandelbrotSet:
         self._generate_image(colorful)
         self._save_image()
 
-    def _generate_image(self, colorful=False):
+    def _generate_image(self, colorful=False, normalize=True):
         matrix = np.array(list(self._generate_data())).reshape(self.width, self.height)
         matrix = np.rot90(matrix, 1)
+
+        if normalize:
+            matrix = (matrix-np.min(matrix))/(np.max(matrix)-np.min(matrix))
 
         self.image = Image.new('RGB', (self.width, self.height), (0, 0, 0))
         if colorful:
             palette = cm.BrBG
-            # palette = cm.jet
+            # palette = cm.prism
             # palette = cm.twilight_shifted
+            # palette = cm.flag
+            # palette = cm.brg
             # palette = cm.gist_heat
             self.image = Image.fromarray(np.uint8(palette(matrix)*255))
         else:
