@@ -107,7 +107,7 @@ ___
 
 <p float="left">
   <img src="Mandelbrot_Set/mandelbrot_set_with_PIL/mandelbrot_set_250_8000_pil_spiral.png" height="300">
-  <img src="Mandelbrot_Set/mandelbrot_set_with_PIL/mandelbrot_set_1050_4000_pil_island.png" height="300">
+  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_1000_2000_island_brbg.png" height="300">
 </p>
 
 <p float="left">
