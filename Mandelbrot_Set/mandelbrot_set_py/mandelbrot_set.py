@@ -56,7 +56,7 @@ class MandelbrotSet:
         self.image = Image.new('RGB', (self.width, self.height), (0, 0, 0))
         if colorful:
             palette = cm.BrBG
-            # palette = cm.prism
+            palette = cm.prism
             # palette = cm.twilight_shifted
             # palette = cm.flag
             # palette = cm.brg
@@ -78,9 +78,11 @@ class MandelbrotSet:
             'island_2': (
                 -0.745067 - 0.5*7e-4, -0.745067 + 0.5*7e-4,
                 0.118346 - 0.5*7e-4, 0.118346 + 0.5*7e-4
-            )
+            ),
+            'spiral_zoom': (-0.7447, -0.743575, 0.1314, 0.13215), # 6:4
+            'spiral_zoom2': (-0.74441875, -0.7441375, 0.1314, 0.1315875), # 6:4
         }
-        limits_ = limits_dict['spiral']
+        limits_ = limits_dict['spiral_set']
         self.limits = {
             're_start': limits_[0],
             're_end': limits_[1],
@@ -115,5 +117,5 @@ class MandelbrotSet:
 
 if __name__ == '__main__':
     mandelbrot_set = MandelbrotSet(max_iterations=1000)
-    #mandelbrot_set.generate_image(height=4000, colorful=True)
-    mandelbrot_set.generate_image(height=2000, width=2000, colorful=True)
+    mandelbrot_set.generate_image(height=4000, colorful=True)
+    #mandelbrot_set.generate_image(height=2000, width=2000, colorful=True)
