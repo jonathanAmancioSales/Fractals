@@ -81,6 +81,8 @@ class MandelbrotSet:
             ),
             'spiral_zoom': (-0.7447, -0.743575, 0.1314, 0.13215), # 6:4
             'spiral_zoom2': (-0.74441875, -0.7441375, 0.1314, 0.1315875), # 6:4
+            'spiral_set_': (-0.7441938, -0.7441366, 0.131485, 0.13151625), # 6:4
+            'spiral_set': (-0.74418322, -0.74414868, 0.131486, 0.13152054), # 1:1
         }
         limits_ = limits_dict['spiral_set']
         self.limits = {
@@ -116,6 +118,6 @@ class MandelbrotSet:
 
 
 if __name__ == '__main__':
-    mandelbrot_set = MandelbrotSet(max_iterations=1000)
-    mandelbrot_set.generate_image(height=4000, colorful=True)
-    #mandelbrot_set.generate_image(height=2000, width=2000, colorful=True)
+    mandelbrot_set = MandelbrotSet(max_iterations=2000)
+    #mandelbrot_set.generate_image(height=1000, colorful=True)
+    mandelbrot_set.generate_image(height=4000, width=4000, colorful=True)
