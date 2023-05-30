@@ -111,12 +111,12 @@ ___
 </p>
 
 <p float="left">
-  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_2000_4000_spiral_set_prism.png" height="300">
+  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_1000_1000_spiral_set_brbg.png" height="300">
   <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_2000_4000_spiral_set_prism.png" height="300">
 </p>
 
 <p float="left">
-  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_4000_8000_spiral_prism.png" height="200">
+  <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_4000_2000_spiral_prism.png" height="200">
   <img src="Mandelbrot_Set/mandelbrot_set_py/mandelbrot_set_2000_4000_spiral_zoom2_prism.png" height="200">
 </p>
 
